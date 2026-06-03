@@ -1,0 +1,7 @@
+FROM mcr.microsoft.com/dotnet/sdk:9.0-alpine AS build
+
+WORKDIR /patinhas
+
+ENV HTTP_PROXY="host.docker.internal:3128"
+ENV HTTPS_PROXY="host.docker.internal:3128"
+

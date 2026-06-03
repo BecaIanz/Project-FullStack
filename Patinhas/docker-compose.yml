@@ -1,0 +1,22 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: BackDocker
+
+    ports: 5803:5284
+
+    image: patinhas-api
+
+    env_file:
+      - .env
+  db:
+    image: mysql:8
+
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=patinhas
+      - MYSQL_USER=patinhas_admin
+      - MYSQL_PASSWORD=025723*_kgUdf**
+
+  ui:
