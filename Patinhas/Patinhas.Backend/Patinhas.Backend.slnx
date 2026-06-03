@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Patinhas.Api/Patinhas.Api.csproj" />
+    <Project Path="src/Patinhas.Application/Patinhas.Application.csproj" />
+    <Project Path="src/Patinhas.Domain/Patinhas.Domain.csproj" />
+    <Project Path="src/Patinhas.Infrastructure/Patinhas.Infrastructure.csproj" />
+  </Folder>
+</Solution>
