@@ -4,14 +4,76 @@
     "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj": {
+    "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Application\\Patinhas.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj",
-        "projectName": "Patinhas.Infrastructure",
-        "projectPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Application\\Patinhas.Application.csproj",
+        "projectName": "Patinhas.Application",
+        "projectPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Application\\Patinhas.Application.csproj",
         "packagesPath": "C:\\Users\\SLO7CT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SLO7CT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Domain\\Patinhas.Domain.csproj": {
+                "projectPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Domain\\Patinhas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Domain\\Patinhas.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Domain\\Patinhas.Domain.csproj",
+        "projectName": "Patinhas.Domain",
+        "projectPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Domain\\Patinhas.Domain.csproj",
+        "packagesPath": "C:\\Users\\SLO7CT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SLO7CT\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +104,77 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj",
+        "projectName": "Patinhas.Infrastructure",
+        "projectPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\SLO7CT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SLO7CT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Application\\Patinhas.Application.csproj": {
+                "projectPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Application\\Patinhas.Application.csproj"
+              },
+              "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Domain\\Patinhas.Domain.csproj": {
+                "projectPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\Patinhas.Domain\\Patinhas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
