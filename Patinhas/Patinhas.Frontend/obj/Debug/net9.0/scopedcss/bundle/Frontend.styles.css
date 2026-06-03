@@ -1,0 +1,24 @@
+/* _content/Frontend/Components/Layout/MainLayout.razor.rz.scp.css */
+.page[b-cj3fj28uav]{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+/* _content/Frontend/Components/Layout/NavMenu.razor.rz.scp.css */
+/* _content/Frontend/Components/Pages/Home.razor.rz.scp.css */
+.container-home[b-ki5ckatzno]{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* _content/Frontend/Components/Shared/CardFeed.razor.rz.scp.css */
+.container-card[b-6bfp2t9tki]{
+    width: 80vw;
+    height: 65vh;
+    background-color: black;
+    border-radius: 10px;
+}
