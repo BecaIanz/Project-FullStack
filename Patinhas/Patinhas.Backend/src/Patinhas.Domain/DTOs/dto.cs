@@ -1,0 +1,1 @@
+namespace Patinhas.Domain.DTOs;
