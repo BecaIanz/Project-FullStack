@@ -1,6 +1,8 @@
 namespace Patinhas.Infrastructure.Context;
 
 using System.Net.Http.Json;
+using Patinhas.Domain.Entities;
+
 public class SeedService
 {
     private string nomeUsuario = "usuario";
