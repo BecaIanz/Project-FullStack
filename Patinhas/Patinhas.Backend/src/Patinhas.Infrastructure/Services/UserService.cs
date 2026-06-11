@@ -33,4 +33,14 @@ public class UserService(Context ctx) : IUserService
     {
         return await ctx.Usuarios.AsNoTracking().ToListAsync();
     }
+
+    public Task<bool> LikeAnimal(int animalId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<bool> DislikeAnimal(int animalId)
+    {
+        throw new NotImplementedException();
+    }
 }

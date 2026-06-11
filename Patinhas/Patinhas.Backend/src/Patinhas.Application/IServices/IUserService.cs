@@ -7,5 +7,6 @@ public interface IUserService
     Task<Boolean> DeleteUser(Usuario usuario);
     Task<Usuario> FindByName(String name);
     Task<List<Usuario>> GetUsers(); // Filters?
-    
+    Task<Boolean> LikeAnimal(int animalId);
+    Task<Boolean> DislikeAnimal(int animalId);
 }

@@ -4,7 +4,8 @@ services:
       context: .
       dockerfile: BackDocker
 
-    ports: 5803:5284
+    ports: 
+      - 5803:5284
 
     image: patinhas-api
 
@@ -19,4 +20,5 @@ services:
       - MYSQL_USER=patinhas_admin
       - MYSQL_PASSWORD=025723*_kgUdf**
 
-  ui:
+  # ui:
+  #   image:

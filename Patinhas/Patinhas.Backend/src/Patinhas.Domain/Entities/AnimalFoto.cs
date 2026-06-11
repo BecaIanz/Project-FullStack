@@ -6,6 +6,6 @@ public class AnimalFoto : BaseModel
 
 
     //================MY-RELATIONS================
-    public required Animal Animal {get;set;}
+    public Animal Animal {get;set;}
     public required int AnimalId {get;set;}
 }
