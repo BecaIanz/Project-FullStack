@@ -25,11 +25,11 @@
         "type": 3
       },
       "seed": 593499348,
-      "version": 348,
-      "versionNonce": 1217812055,
+      "version": 350,
+      "versionNonce": 1258085330,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1780513552538,
+      "updated": 1781194865636,
       "link": null,
       "locked": false
     },
@@ -309,7 +309,7 @@
       "version": 32,
       "versionNonce": 1316015255,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1780513478134,
       "link": null,
       "locked": false,

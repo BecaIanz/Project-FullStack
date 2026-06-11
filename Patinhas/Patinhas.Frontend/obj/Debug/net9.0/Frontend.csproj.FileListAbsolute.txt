@@ -156,5 +156,5 @@ C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\ob
 C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\Frontend.genruntimeconfig.cache
 C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\ref\Frontend.dll
 C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
-C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\wkaqiq4loj-imhcuf12xi.gz
-C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\xfnzok5kqy-imhcuf12xi.gz
+C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\wkaqiq4loj-7vmnouyx3n.gz
+C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\xfnzok5kqy-7vmnouyx3n.gz

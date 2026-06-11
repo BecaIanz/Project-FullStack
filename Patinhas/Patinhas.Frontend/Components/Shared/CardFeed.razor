@@ -1,5 +1,16 @@
 <div class="container-card">
-    <img style="width: 100%;height: 100%;" src="@Image" alt="imagem de animal"/>
+    <img  src="@Image" alt="imagem de animal"/>
+    <p style="position: absolute; top: 40%; left:90%; font-size:40px; z-index:11">></p>
+    <p style="position: absolute; top: 40%; left:3%; font-size:40px; z-index:11">@flecha</p>
+    <div class="gradient">
+        <p>@Name, @Age</p>
+        <p>@Description</p>
+        <div class="container-ball">
+            @for(int i = 0; i < QuantImages; i++){
+                <div class="ball"></div>
+            }
+        </div>
+    </div>
 </div>
 
 @code{
@@ -9,4 +20,9 @@
     public string Name { get; set; } = "Mia";
     [Parameter]
     public string Age { get; set; } = "2 meses";
+    [Parameter]
+    public string Description { get; set; } = "Gata muito amavel e extremamente carinhosa,";
+    [Parameter]
+    public int QuantImages { get; set; } = 3;
+    public string flecha = "<";
 }
