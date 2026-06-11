@@ -1,0 +1,16 @@
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\bin\Debug\net8.0\Patinhas.Application.deps.json
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\bin\Debug\net8.0\Patinhas.Application.dll
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\bin\Debug\net8.0\Patinhas.Application.pdb
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\bin\Debug\net8.0\Patinhas.Domain.dll
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\bin\Debug\net8.0\Patinhas.Domain.pdb
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\obj\Debug\net8.0\Patinhas.Application.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\obj\Debug\net8.0\Patinhas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\obj\Debug\net8.0\Patinhas.Application.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\obj\Debug\net8.0\Patinhas.Application.AssemblyInfo.cs
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\obj\Debug\net8.0\Patinhas.Application.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\obj\Debug\net8.0\Patinhas.Application.sourcelink.json
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\obj\Debug\net8.0\Patinhas.3DA40FB1.Up2Date
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\obj\Debug\net8.0\Patinhas.Application.dll
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\obj\Debug\net8.0\refint\Patinhas.Application.dll
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\obj\Debug\net8.0\Patinhas.Application.pdb
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Application\obj\Debug\net8.0\ref\Patinhas.Application.dll

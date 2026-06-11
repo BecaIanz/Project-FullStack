@@ -1,0 +1,12 @@
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Domain\bin\Debug\net8.0\Patinhas.Domain.deps.json
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Domain\bin\Debug\net8.0\Patinhas.Domain.dll
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Domain\bin\Debug\net8.0\Patinhas.Domain.pdb
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Domain\obj\Debug\net8.0\Patinhas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Domain\obj\Debug\net8.0\Patinhas.Domain.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Domain\obj\Debug\net8.0\Patinhas.Domain.AssemblyInfo.cs
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Domain\obj\Debug\net8.0\Patinhas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Domain\obj\Debug\net8.0\Patinhas.Domain.sourcelink.json
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Domain\obj\Debug\net8.0\Patinhas.Domain.dll
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Domain\obj\Debug\net8.0\refint\Patinhas.Domain.dll
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Domain\obj\Debug\net8.0\Patinhas.Domain.pdb
+C:\Users\disrct\Desktop\FehFito\Project-FullStack\Patinhas\Patinhas.Backend\src\Patinhas.Domain\obj\Debug\net8.0\ref\Patinhas.Domain.dll

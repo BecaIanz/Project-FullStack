@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Api\\Patinhas.Api.csproj": {}
+    "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Api\\Patinhas.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Api\\Patinhas.Api.csproj": {
+    "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Api\\Patinhas.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Api\\Patinhas.Api.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Api\\Patinhas.Api.csproj",
         "projectName": "Patinhas.Api",
-        "projectPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Api\\Patinhas.Api.csproj",
-        "packagesPath": "C:\\Users\\FIF1CT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Api\\obj\\",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Api\\Patinhas.Api.csproj",
+        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FIF1CT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -27,11 +27,11 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj": {
-                "projectPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj"
+              "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj"
               },
-              "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj"
+              "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj"
               }
             }
           }
@@ -73,6 +73,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -81,21 +99,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj": {
+    "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj",
         "projectName": "Patinhas.Application",
-        "projectPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj",
-        "packagesPath": "C:\\Users\\FIF1CT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\obj\\",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj",
+        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FIF1CT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -108,8 +126,8 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj": {
-                "projectPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj"
+              "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj"
               }
             }
           }
@@ -141,26 +159,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj": {
+    "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj",
         "projectName": "Patinhas.Domain",
-        "projectPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj",
-        "packagesPath": "C:\\Users\\FIF1CT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\obj\\",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj",
+        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FIF1CT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -202,26 +234,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj": {
+    "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj",
         "projectName": "Patinhas.Infrastructure",
-        "projectPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\FIF1CT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Infrastructure\\Patinhas.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FIF1CT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -234,11 +280,11 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj": {
-                "projectPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj"
+              "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj"
               },
-              "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj": {
-                "projectPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj"
+              "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj"
               }
             }
           }
@@ -276,12 +322,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
