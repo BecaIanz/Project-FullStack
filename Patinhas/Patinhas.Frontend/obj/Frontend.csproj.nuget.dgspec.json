@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iar1ct\\Desktop\\Patinhas\\Project-FullStack\\Patinhas\\Patinhas.Frontend\\Frontend.csproj": {}
+    "C:\\Users\\disrct\\Desktop\\Project-FullStack\\Patinhas\\Patinhas.Frontend\\Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iar1ct\\Desktop\\Patinhas\\Project-FullStack\\Patinhas\\Patinhas.Frontend\\Frontend.csproj": {
+    "C:\\Users\\disrct\\Desktop\\Project-FullStack\\Patinhas\\Patinhas.Frontend\\Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iar1ct\\Desktop\\Patinhas\\Project-FullStack\\Patinhas\\Patinhas.Frontend\\Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Project-FullStack\\Patinhas\\Patinhas.Frontend\\Frontend.csproj",
         "projectName": "Frontend",
-        "projectPath": "C:\\Users\\Iar1ct\\Desktop\\Patinhas\\Project-FullStack\\Patinhas\\Patinhas.Frontend\\Frontend.csproj",
-        "packagesPath": "C:\\Users\\Iar1ct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iar1ct\\Desktop\\Patinhas\\Project-FullStack\\Patinhas\\Patinhas.Frontend\\obj\\",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\Project-FullStack\\Patinhas\\Patinhas.Frontend\\Frontend.csproj",
+        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\Project-FullStack\\Patinhas\\Patinhas.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Iar1ct\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -63,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.117/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

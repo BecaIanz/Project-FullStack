@@ -15,6 +15,16 @@
     justify-content: center;
     align-items: center;
     background-color: #b19579;
+    position: relative;
+}
+
+.logo[b-ki5ckatzno]{
+    width: 3rem; 
+    height: 3rem; 
+    border-radius:30px;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
 }
 /* _content/Frontend/Components/Shared/CardFeed.razor.rz.scp.css */
 .container-card[b-6bfp2t9tki]{
@@ -58,7 +68,7 @@ p[b-6bfp2t9tki]{
     width: 8px;
     height: 8px;
     border-radius: 8px;
-    background-color: white;
+    background-color: rgb(160, 160, 160);
 }
 .container-ball[b-6bfp2t9tki]{
     width: 100%;
