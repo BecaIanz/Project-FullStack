@@ -2,7 +2,7 @@
     Usamos modelos pronto que contem modelo de animal, foto, usario, ong e match.
 
 ### 02. Criar DbContext
-    Usamos dbcontext pronto e nele contem às conexções com o banco.
+    Usamos dbcontext pronto e nele contem às conexções com o banco. 
 
 ### 03. Configurar DbContext e conexão com o SQL (variável de ambiente)
     Usamos dbcontext pronto e nele contem às conexções com o banco.
@@ -21,6 +21,7 @@
 ### 08. Configurar UseCases como serviços
     Definindo serviços primeiro
 ### 09. Definir Serviços
+ Os servições foram definidos como create, Delete, list, e gets de  user 
 
 
 ### 10. Implementar UseCases

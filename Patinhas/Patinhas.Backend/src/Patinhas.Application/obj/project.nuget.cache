@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RE0wTAUjgzM=",
+  "dgSpecHash": "4GQjG2sCNU0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\disrct\\Desktop\\FehFito\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\disrct\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.28\\microsoft.netcore.app.ref.8.0.28.nupkg.sha512",
-    "C:\\Users\\disrct\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.28\\microsoft.windowsdesktop.app.ref.8.0.28.nupkg.sha512",
-    "C:\\Users\\disrct\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.28\\microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
