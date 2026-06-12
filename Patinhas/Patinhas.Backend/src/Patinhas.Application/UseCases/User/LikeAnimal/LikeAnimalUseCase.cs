@@ -16,6 +16,7 @@ public class LikeAnimalUseCase(IUserService userService, IAnimalService animalSe
             AnimalId = payload.AnimalId,
             Animal = await animalService.FindById(payload.AnimalId)
         };
+        // Create Like Entity!
         return Result<LikeAnimalResponse>.Success(new LikeAnimalResponse());
     }
 }

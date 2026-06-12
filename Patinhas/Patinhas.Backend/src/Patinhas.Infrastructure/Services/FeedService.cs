@@ -1,6 +1,5 @@
-using Microsoft.EntityFrameworkCore;
 using Patinhas.Application.IServices;
-using Patinhas.Domain.Entities;
+using Patinhas.Backend.Domain.Entities;
 using Patinhas.Infrastructure.Context;
 
 public class FeedService(Context ctx) : IFeedService
@@ -10,7 +9,7 @@ public class FeedService(Context ctx) : IFeedService
         throw new NotImplementedException();
     }
 
-    public Task<List<Animal>> GetFeed(Usuario usuario)
+    public Task<List<Animal>> GetFeed()
     {
         return ctx.Animais.AsNoTracking().Take(10).ToListAsync();
     }

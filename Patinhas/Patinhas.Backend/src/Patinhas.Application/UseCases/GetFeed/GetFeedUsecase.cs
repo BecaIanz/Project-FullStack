@@ -6,6 +6,7 @@ public class GetFeedService(IFeedService feedService)
 {
     public async Task<Result<GetFeedResponse>> Do(GetFeedPayload payload)
     {
+        // feedService.GetFeed();
         return Result<GetFeedResponse>.Success(new GetFeedResponse());
     }
 }
