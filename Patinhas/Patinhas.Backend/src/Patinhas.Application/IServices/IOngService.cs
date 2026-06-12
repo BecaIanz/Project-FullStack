@@ -1,9 +1,10 @@
 namespace Patinhas.Application.IServices;
 
-using Patinhas.Domain.Entities;
+using Patinhas.Backend.Domain.Entities;
 
 public interface IOngService
 {
+    Task<Ong> FindById(int id);
     Task<int> CreateOngAsync(Ong ong);
     Task<bool> DeleteOngAsync(Ong ong);
     Task<bool> UpdateOngAsync(Ong ong);

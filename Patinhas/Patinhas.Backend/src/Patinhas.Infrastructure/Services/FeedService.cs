@@ -5,6 +5,11 @@ using Patinhas.Infrastructure.Context;
 
 public class FeedService(Context ctx) : IFeedService
 {
+    public void DeleteById(int id)
+    {
+        throw new NotImplementedException();
+    }
+
     public Task<List<Animal>> GetFeed(Usuario usuario)
     {
         return ctx.Animais.AsNoTracking().Take(10).ToListAsync();

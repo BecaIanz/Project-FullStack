@@ -5,8 +5,8 @@ deleteUser
 updateUser
 addUserPhoto
 removeUsePhoto
-authUser
 
+authUser
 likeAnimal
 
 Animal

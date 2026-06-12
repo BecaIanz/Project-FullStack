@@ -1,9 +1,9 @@
 namespace Patinhas.Application.IServices;
-
-using Patinhas.Domain.Entities;
+using Patinhas.Backend.Domain.Entities;
 
 public interface IAnimalService
 {
+    Task<Animal> FindById(int id);
     Task<int> CreateAnimal(Animal animal);
 
     Task<bool> DeleteAnimal(Animal animal);

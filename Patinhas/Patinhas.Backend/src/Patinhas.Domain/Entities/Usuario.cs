@@ -1,4 +1,4 @@
-namespace Patinhas.Domain.Entities;
+namespace Patinhas.Backend.Domain.Entities;
 public class Usuario : BaseModel
 {
     //================PROPERTIES================

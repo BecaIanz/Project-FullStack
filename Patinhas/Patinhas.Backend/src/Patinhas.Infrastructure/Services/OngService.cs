@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Patinhas.Application.IServices;
-using Patinhas.Domain.Entities;
+using Patinhas.Backend.Domain.Entities;
 using Patinhas.Infrastructure.Context;
 
 public class OngService(Context ctx) : IOngService

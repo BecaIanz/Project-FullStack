@@ -1,8 +1,9 @@
 namespace Patinhas.Application.IServices;
-using Patinhas.Domain.Entities;
+using Patinhas.Backend.Domain.Entities;
 
 public interface IUserService
 {
+    Task<Usuario> FindById(int id);
     Task<int> CreateUser(Usuario usuario);
     Task<Boolean> DeleteUser(Usuario usuario);
     Task<Usuario> FindByName(String name);
