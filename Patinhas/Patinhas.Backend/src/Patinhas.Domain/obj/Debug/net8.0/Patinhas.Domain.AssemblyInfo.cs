@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Patinhas.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b897268500d5eaf92b771422688f7be5f44dddf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21f8077d96afc5cf2a61151a8d3994cddfe7b75a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Patinhas.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Patinhas.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
