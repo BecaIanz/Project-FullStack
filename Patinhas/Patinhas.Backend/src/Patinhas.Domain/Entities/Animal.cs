@@ -1,3 +1,5 @@
+namespace Patinhas.Domain.Entities;
+
 public class Animal : BaseModel
 {
     //================PROPERTIES================

@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Patinhas.Infrastructure.Context;
 
 public static class DbConfiguration
 {

@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Patinhas.Domain.Entities;
 
 public static class AnimalClassMap
 {

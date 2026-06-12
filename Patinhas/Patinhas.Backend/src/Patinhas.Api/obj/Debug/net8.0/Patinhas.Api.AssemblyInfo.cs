@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Patinhas.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dac56a468a6b6ed7ecf7871c393a529afb08447")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33e8e34a013e1dbe4094f0e28fd67a14f8aca085")]
+>>>>>>> 7b897268500d5eaf92b771422688f7be5f44dddf
 [assembly: System.Reflection.AssemblyProductAttribute("Patinhas.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Patinhas.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

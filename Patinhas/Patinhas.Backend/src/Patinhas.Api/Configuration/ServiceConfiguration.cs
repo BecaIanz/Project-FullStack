@@ -1,3 +1,5 @@
+using Patinhas.Infrastructure.Context;
+
 public static class ServiceConfiguration
 {
     public static void AddServices(this IServiceCollection services)

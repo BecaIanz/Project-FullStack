@@ -1,5 +1,7 @@
-using System.Reflection.Metadata;
+namespace Patinhas.Infrastructure.Context;
+
 using Microsoft.EntityFrameworkCore;
+using Patinhas.Domain.Entities;
 
 public class Context(DbContextOptions<Context> ctx) : DbContext(ctx)
 {

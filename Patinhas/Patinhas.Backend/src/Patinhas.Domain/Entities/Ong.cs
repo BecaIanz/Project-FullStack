@@ -1,3 +1,4 @@
+namespace Patinhas.Domain.Entities;
 public class Ong : BaseModel
 {
     //================PROPERTIES================

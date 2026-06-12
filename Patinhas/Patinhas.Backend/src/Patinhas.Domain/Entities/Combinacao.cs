@@ -1,3 +1,4 @@
+namespace Patinhas.Domain.Entities;
 public class Combinacao : BaseModel
 {
     //================PROPERTIES================
