@@ -9,7 +9,9 @@ public class AproveProfileUseCase(IOngService ongService)
     {
         if (payload.Answer)
         {
-            payload.Combination.Aceito = true;
+            
+            // var combination = 
+            // combination.Aceito = true;
             // algo?
         }
         // deletar combinacao

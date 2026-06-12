@@ -4,6 +4,6 @@ namespace Patinhas.Backend.Application.UseCases.Ong.AproveProfile;
 
 public record AproveProfilePayload
 {
-    public required Combinacao Combination { get; set; }
+    public required int CombinationID { get; set; }
     public bool Answer {get; set;}
 };
