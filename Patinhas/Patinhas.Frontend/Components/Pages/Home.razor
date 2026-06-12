@@ -1,7 +1,26 @@
 ﻿@page "/"
 @using Frontend.Components.Shared
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
 
 <div class="container-home">
-    <img class="logo" src="https://img.magnific.com/vetores-gratis/pata-de-design-de-logotipo-de-animal-de-estimacao-vetor-para-loja-de-animais_53876-136741.jpg?semt=ais_hybrid&w=740&q=80" alt="Logo"/>
+    <div class="container-header">
+        <img class="logo" src="/Images/user2.png" alt="User" @onclick="() => goToUserPage()"/>
+        <img class="logo" src="/Images/pata_logo.avif" alt="Logo"/>
+        <img class="logo" src="/Images/message.png" alt="message" @onclick="() => goToMessagePage()" />
+
+    </div>
     <CardFeed></CardFeed>
 </div>
+
+@code{
+    private void goToUserPage()
+    {
+        Console.WriteLine("Clicou");
+        NavigationManager.NavigateTo("/user");
+    }
+    private void goToMessagePage()
+    {
+        NavigationManager.NavigateTo("/contacts");
+    }
+}

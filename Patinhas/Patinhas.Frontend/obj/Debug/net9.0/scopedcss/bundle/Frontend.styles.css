@@ -6,6 +6,17 @@
     flex-direction: row;
 }
 /* _content/Frontend/Components/Layout/NavMenu.razor.rz.scp.css */
+/* _content/Frontend/Components/Pages/Contacts.razor.rz.scp.css */
+.container-message[b-2cmq9nv29j]{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b19579;
+    position: relative;
+}
 /* _content/Frontend/Components/Pages/Home.razor.rz.scp.css */
 .container-home[b-ki5ckatzno]{
     width: 100vw;
@@ -19,12 +30,49 @@
 }
 
 .logo[b-ki5ckatzno]{
-    width: 3rem; 
-    height: 3rem; 
-    border-radius:30px;
-    position: absolute;
+    width: 4rem; 
+    height: 4rem; 
+    border-radius:10px;
+    /* position: absolute;
     top: 2rem;
-    right: 2rem;
+    right: 2rem; */
+}
+
+.container-header[b-ki5ckatzno]{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+/* _content/Frontend/Components/Pages/User.razor.rz.scp.css */
+.container-user[b-ydjnqnqrje]{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b19579;
+    position: relative;
+}
+.logo[b-ydjnqnqrje]{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50px;
+}
+/* _content/Frontend/Components/Shared/CardContacts.razor.rz.scp.css */
+.container-card[b-skuohlv81v]{
+    width: 80%;
+    height: 5rem;
+    background-color: rgb(224, 209, 189);
+    border-radius: 10px;
+    gap: 1rem;
 }
 /* _content/Frontend/Components/Shared/CardFeed.razor.rz.scp.css */
 .container-card[b-6bfp2t9tki]{

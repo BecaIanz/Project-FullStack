@@ -1,0 +1,17 @@
+@page "/user"
+@rendermode InteractiveServer
+
+
+<div class="container-user">
+    <img class="logo" src=@PhotoPerfil alt="user">
+    <p>@Name</p>
+
+</div>
+
+@code{
+    [Parameter]
+    public string PhotoPerfil { get; set; } = "/Images/user2.png";
+    [Parameter]
+    public string Name { get; set; } = "Perfil Teste";
+
+}

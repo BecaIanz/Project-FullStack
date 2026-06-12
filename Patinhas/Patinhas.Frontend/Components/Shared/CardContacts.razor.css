@@ -1,0 +1,7 @@
+.container-card{
+    width: 80%;
+    height: 5rem;
+    background-color: rgb(224, 209, 189);
+    border-radius: 10px;
+    gap: 1rem;
+}

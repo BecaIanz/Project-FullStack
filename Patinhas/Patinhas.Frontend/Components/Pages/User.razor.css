@@ -1,0 +1,15 @@
+.container-user{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b19579;
+    position: relative;
+}
+.logo{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50px;
+}
