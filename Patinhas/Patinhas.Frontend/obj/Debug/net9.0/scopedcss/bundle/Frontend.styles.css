@@ -75,12 +75,10 @@
     width: 13rem;
     height: 13rem;
     border-radius: 200px;
-    position: relative;
     background-color: #00000000;
     border: solid 4px rgb(90, 47, 21);
     position: absolute;
-    top: 40;
-    left: 0;
+    top: 150px;
 }
 
 .header[b-ydjnqnqrje]{
