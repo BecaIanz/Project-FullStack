@@ -8,7 +8,7 @@ public interface IAnimalService
 
     Task<bool> DeleteAnimal(Animal animal);
 
-    Task<bool> UpdateAnimal(Animal animal);
+    Task<bool> UpdateAnimal(int id, Animal animal);
 
     Task<bool> AddAnimalPhoto(int animalId, string photoUrl);
 

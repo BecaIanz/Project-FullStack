@@ -5,23 +5,33 @@ namespace Patinhas.Backend.Application.UseCases.Animals.UpdateAnimal;
 
 public class UpdateAnimalUseCase(IAnimalService IAnimalService)
 {
-    public async Task<Result<UpdateAnimalResponse>> Do(UpdateAnimalPayload payload)
+    public async Task<Result<UpdateAnimalResponse>> Do(UpdateAnimalPayload Payload)
     {
         try
         {
-            var OldAnimal = await IAnimalService.FindById(payload.Id);
+            var OldAnimal = await IAnimalService.FindById(Payload.Id);
 
             string nome = OldAnimal.Nome;
+            string tipo = OldAnimal.Tipo;
+            string raca = OldAnimal.Raca;
 
-            if (payload.Nome != null)
-                nome = payload.Nome;
+            if (Payload.Nome != null)
+                nome = Payload.Nome;
+            if (Payload.Tipo != null)
+                tipo = Payload.Tipo;
+            if (Payload.Raca != null)
+                raca = Payload.Raca;
             
-            var Animal = new Animal
-            {
-                Nome=nome
+            var animal = new Animal
+            {  
+                Nome = nome,
+                Tipo = tipo,
+                Raca = raca,
+                Ong = OldAnimal.Ong,
+                OngId = OldAnimal.OngId
+        
             };
-
-            await IAnimalService.UpdateAnimal(payload.Id,Animal);
+            await IAnimalService.UpdateAnimal(Payload.Id,animal);
 
             return Result<UpdateAnimalResponse>.Success(new UpdateAnimalResponse());
         }
