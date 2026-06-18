@@ -1,9 +1,25 @@
 @page "/contacts"
 
 @using Frontend.Components.Shared
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
 
 <div class="container-message">
-    @for(int i = 0; i < 8; i++){
-        <CardContacts></CardContacts>
-    }
+    <div style="width: 5rem; height: 5rem;" @onclick="() => goToHomePage()">
+        <svg xmlns="http://www.w3.org/2000/svg" id="mdil-arrow-left" viewBox="0 0 24 24" fill="#5a2f15"><path d="M19,13H6.75L12,18.25L11.34,19L4.84,12.5L11.34,6L12,6.75L6.75,12H19V13Z" fill="#5a2f15"/></svg>
+    </div>
+    <div class="container-card">
+        @foreach(var cont in ContactList){
+            <CardContacts Width="100%" Height="6rem" Name="@cont"></CardContacts>
+        }
+    </div>
 </div>
+
+@code{
+    [Parameter]
+    public List<string> ContactList { get; set; } = ["ONG 1", "ONG 2", "ONG 3"];
+
+    private void goToHomePage()
+    {NavigationManager.NavigateTo("/");}
+}

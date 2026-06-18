@@ -1,3 +1,13 @@
-<div class="container-card">
-    
+
+<div class="container-card" style="width: @Width; height: @Height">
+    <h2>@Name</h2>
 </div>
+
+@code{
+    [Parameter]
+    public string Name { get; set; } = "Contato";
+    [Parameter]
+    public string Width { get; set; } = "100%";
+    [Parameter]
+    public string Height { get; set; } = "10rem";
+}

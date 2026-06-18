@@ -241,5 +241,7 @@ C:\Users\disrct\Desktop\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\n
 C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\scopedcss\Components\Pages\User.razor.rz.scp.css
 C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\scopedcss\Components\Pages\Contacts.razor.rz.scp.css
 C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\scopedcss\Components\Shared\CardContacts.razor.rz.scp.css
-C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\wkaqiq4loj-hi6n5cf5jb.gz
-C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\xfnzok5kqy-hi6n5cf5jb.gz
+C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\lj6qvupq73-4cxwixnbt7.gz
+C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\in9gcgwmg3-21s5onqkzi.gz
+C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\wkaqiq4loj-4iuc54e5ei.gz
+C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\xfnzok5kqy-4iuc54e5ei.gz
