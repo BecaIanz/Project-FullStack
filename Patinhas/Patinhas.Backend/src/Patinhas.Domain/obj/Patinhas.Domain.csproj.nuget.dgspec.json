@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj": {}
+    "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj": {
+    "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj",
         "projectName": "Patinhas.Domain",
-        "projectPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj",
-        "packagesPath": "C:\\Users\\SLO7CT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\obj\\",
+        "projectPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj",
+        "packagesPath": "C:\\Users\\FIF1CT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SLO7CT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\FIF1CT\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

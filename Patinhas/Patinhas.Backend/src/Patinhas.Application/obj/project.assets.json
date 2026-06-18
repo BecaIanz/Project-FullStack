@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SLO7CT\\.nuget\\packages\\": {}
+    "C:\\Users\\FIF1CT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj",
+      "projectUniqueName": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj",
       "projectName": "Patinhas.Application",
-      "projectPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj",
-      "packagesPath": "C:\\Users\\SLO7CT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\obj\\",
+      "projectPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\Patinhas.Application.csproj",
+      "packagesPath": "C:\\Users\\FIF1CT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SLO7CT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\FIF1CT\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -52,8 +52,8 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj": {
-              "projectPath": "C:\\Users\\SLO7CT\\Desktop\\Aulas\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj"
+            "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj": {
+              "projectPath": "C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Domain\\Patinhas.Domain.csproj"
             }
           }
         }
@@ -90,8 +90,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\FIF1CT\\Desktop\\Coding\\Project-FullStack\\Patinhas\\Patinhas.Backend\\src\\Patinhas.Application\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
+    }
+  ]
 }

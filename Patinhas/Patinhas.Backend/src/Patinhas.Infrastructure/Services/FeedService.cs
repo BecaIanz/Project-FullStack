@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Patinhas.Application.IServices;
 using Patinhas.Backend.Domain.Entities;
 using Patinhas.Infrastructure.Context;
