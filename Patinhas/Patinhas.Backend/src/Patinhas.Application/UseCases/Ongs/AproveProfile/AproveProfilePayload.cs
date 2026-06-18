@@ -1,6 +1,6 @@
 using Patinhas.Backend.Domain.Entities;
 
-namespace Patinhas.Backend.Application.UseCases.Ong.AproveProfile;
+namespace Patinhas.Backend.Application.UseCases.Ongs.AproveProfile;
 
 public record AproveProfilePayload
 {

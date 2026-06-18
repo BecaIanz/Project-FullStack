@@ -10,4 +10,5 @@ public interface IOngService
     Task<bool> UpdateOngAsync(Ong ong);
     Task<Ong?> FindByNameAsync(string name);
     Task<List<Ong>> GetOngsAsync();
+    Task UpdateOngAsync(int id, Ong ong);
 }
