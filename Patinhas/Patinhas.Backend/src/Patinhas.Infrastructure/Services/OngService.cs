@@ -41,4 +41,19 @@ public class OngService(Context ctx) : IOngService
             .AsNoTracking()
             .ToListAsync();
     }
+
+    public Task<Ong> FindById(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<bool> Aprove()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task UpdateOngAsync(int id, Ong ong)
+    {
+        throw new NotImplementedException();
+    }
 }

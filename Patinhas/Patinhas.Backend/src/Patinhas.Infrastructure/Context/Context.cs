@@ -1,7 +1,7 @@
 namespace Patinhas.Infrastructure.Context;
 
 using Microsoft.EntityFrameworkCore;
-using Patinhas.Domain.Entities;
+using Patinhas.Backend.Domain.Entities;
 
 public class Context(DbContextOptions<Context> ctx) : DbContext(ctx)
 {

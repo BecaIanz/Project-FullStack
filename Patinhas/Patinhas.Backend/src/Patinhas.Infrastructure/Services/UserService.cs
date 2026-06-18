@@ -2,8 +2,8 @@ namespace Patinhas.Infrastructure.Services;
 
 using Patinhas.Infrastructure.Context;
 using Patinhas.Application.IServices;
-using Patinhas.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Patinhas.Backend.Domain.Entities;
 
 public class UserService(Context ctx) : IUserService
 {
@@ -40,6 +40,16 @@ public class UserService(Context ctx) : IUserService
     }
 
     public Task<bool> DislikeAnimal(int animalId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<Usuario> FindById(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<bool> UpdateUser(int id, Usuario usuario)
     {
         throw new NotImplementedException();
     }

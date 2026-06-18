@@ -1,7 +1,7 @@
 namespace Patinhas.Infrastructure.Context;
 
 using System.Net.Http.Json;
-using Patinhas.Domain.Entities;
+using Patinhas.Backend.Domain.Entities;
 
 public class SeedService
 {

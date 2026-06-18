@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Patinhas.Domain.Entities;
+using Patinhas.Backend.Domain.Entities;
 
 public static class AnimalFotoClassMap
 {

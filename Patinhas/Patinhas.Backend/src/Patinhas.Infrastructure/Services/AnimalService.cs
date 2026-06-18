@@ -21,7 +21,7 @@ public class AnimalService(Context ctx) : IAnimalService
         return await ctx.SaveChangesAsync() > 0;
     }
 
-    public async Task<bool> UpdateAnimal(Animal animal)
+    public async Task<bool> UpdateAnimal(int id, Animal animal)
     {
         ctx.Animais.Update(animal);
 
@@ -60,5 +60,10 @@ public class AnimalService(Context ctx) : IAnimalService
         ctx.AnimalFotos.Remove(photo);
 
         return await ctx.SaveChangesAsync() > 0;
+    }
+
+    public Task<Animal> FindById(int id)
+    {
+        throw new NotImplementedException();
     }
 }

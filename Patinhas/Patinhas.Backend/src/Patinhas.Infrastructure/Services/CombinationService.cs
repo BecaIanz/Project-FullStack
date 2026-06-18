@@ -4,10 +4,12 @@ using Patinhas.Infrastructure.Context;
 
 namespace Patinhas.Infrastructure.Services;
 
-public class CombinationService(Context ctx) : ICombinationService
+public class CombinationService() : ICombinationService
 {
+// Context ctx
     public Task<int> CreateCombination(Combinacao combinacao)
     {
+        
         throw new NotImplementedException();
     }
 
