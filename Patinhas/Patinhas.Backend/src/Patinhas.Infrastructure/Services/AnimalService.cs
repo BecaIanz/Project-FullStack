@@ -5,6 +5,11 @@ using Patinhas.Infrastructure.Context;
 
 public class AnimalService(Context ctx) : IAnimalService
 {
+
+    public async Task<List<Animal>> GetAll()
+    {
+        return await ctx.Animais.ToListAsync();
+    }
     public async Task<int> CreateAnimal(Animal animal)
     {
         ctx.Animais.Add(animal);
@@ -23,7 +28,15 @@ public class AnimalService(Context ctx) : IAnimalService
 
     public async Task<bool> UpdateAnimal(int id, Animal animal)
     {
-        ctx.Animais.Update(animal);
+        var existingAnimal = await ctx.Animais
+                .FirstOrDefaultAsync(a => a.Id == id);
+
+        if (existingAnimal is null)
+            return false;
+
+        existingAnimal.Nome = animal.Nome;
+        existingAnimal.Raca = animal.Raca;
+        existingAnimal.Tipo = animal.Tipo;
 
         return await ctx.SaveChangesAsync() > 0;
     }
@@ -62,8 +75,10 @@ public class AnimalService(Context ctx) : IAnimalService
         return await ctx.SaveChangesAsync() > 0;
     }
 
-    public Task<Animal> FindById(int id)
+    public async Task<Animal> FindById(int id)
     {
-        throw new NotImplementedException();
+        return await ctx.Animais
+            .Include(a => a.Fotos)
+            .FirstOrDefaultAsync(a => a.Id == id);
     }
 }
