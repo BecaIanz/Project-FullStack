@@ -1,12 +1,11 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using Patinhas.Infrastructure.Context;
 
 public static class DbConfiguration
 {
     public static void ConfigureDb(this IServiceCollection service)
     {
-        service.AddDbContext<Context>(options =>
+        service.AddDbContext<PatinhasContext>(options =>
         {
             var host = Environment.GetEnvironmentVariable("DB_HOST");
             var port = Environment.GetEnvironmentVariable("DB_PORT");

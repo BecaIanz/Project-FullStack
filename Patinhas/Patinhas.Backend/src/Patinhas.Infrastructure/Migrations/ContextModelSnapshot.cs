@@ -9,7 +9,7 @@ using Patinhas.Infrastructure.Context;
 
 namespace Infrastructure.Migrations
 {
-    [DbContext(typeof(Context))]
+    [DbContext(typeof(PatinhasContext))]
     partial class ContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

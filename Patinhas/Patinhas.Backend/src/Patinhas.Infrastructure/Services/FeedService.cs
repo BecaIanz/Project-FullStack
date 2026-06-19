@@ -3,15 +3,31 @@ using Patinhas.Application.IServices;
 using Patinhas.Backend.Domain.Entities;
 using Patinhas.Infrastructure.Context;
 
-public class FeedService(Context ctx) : IFeedService
+public class FeedService(PatinhasContext ctx) : IFeedService
 {
-    public void DeleteById(int id)
+    public async Task<List<Animal>> GetFeed(int usuarioId)
     {
-        throw new NotImplementedException();
+        var animalIdsJaVistos = await ctx.Combinacoes
+            .Where(c => c.UsuarioId == usuarioId)
+            .Select(c => c.AnimalId)
+            .ToListAsync();
+
+        return await ctx.Animais
+            .Include(a => a.Fotos)
+            .Where(a => !animalIdsJaVistos.Contains(a.Id))
+            .ToListAsync();
     }
 
-    public Task<List<Animal>> GetFeed()
+    public async Task<Animal?> GetNextAnimal(int usuarioId)
     {
-        return ctx.Animais.AsNoTracking().Take(10).ToListAsync();
+        var animalIdsJaVistos = await ctx.Combinacoes
+            .Where(c => c.UsuarioId == usuarioId)
+            .Select(c => c.AnimalId)
+            .ToListAsync();
+
+        return await ctx.Animais
+            .Include(a => a.Fotos)
+            .Where(a => !animalIdsJaVistos.Contains(a.Id))
+            .FirstOrDefaultAsync();
     }
 }

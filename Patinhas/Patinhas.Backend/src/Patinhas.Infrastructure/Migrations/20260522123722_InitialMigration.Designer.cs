@@ -10,7 +10,7 @@ using Patinhas.Infrastructure.Context;
 
 namespace Infrastructure.Migrations
 {
-    [DbContext(typeof(Context))]
+    [DbContext(typeof(PatinhasContext))]
     [Migration("20260522123722_InitialMigration")]
     partial class InitialMigration
     {

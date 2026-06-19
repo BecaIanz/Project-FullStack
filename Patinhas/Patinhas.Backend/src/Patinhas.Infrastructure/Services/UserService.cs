@@ -5,7 +5,7 @@ using Patinhas.Application.IServices;
 using Microsoft.EntityFrameworkCore;
 using Patinhas.Backend.Domain.Entities;
 
-public class UserService(Context ctx) : IUserService
+public class UserService(PatinhasContext ctx) : IUserService
 {
     public async Task<int> CreateUser(Usuario usuario)
     {
@@ -52,5 +52,24 @@ public class UserService(Context ctx) : IUserService
     public Task<bool> UpdateUser(int id, Usuario usuario)
     {
         throw new NotImplementedException();
+    }
+
+    public async Task<bool> AddUserPhoto(int id, string url)
+    {
+        var user = await ctx.Usuarios.FirstOrDefaultAsync(u => u.Id == id);
+        
+        if (user == null)
+            return false;
+        
+        var newPhoto = new UsuarioFoto()
+        {
+            Url = url,
+            Usuario = user,
+            UsuarioId = id
+        };
+
+        ctx.UsuarioFotos.Add(newPhoto);
+        await ctx.SaveChangesAsync();
+        return true;
     }
 }

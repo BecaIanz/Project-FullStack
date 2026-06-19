@@ -1,25 +1,30 @@
-using Patinhas.Application.IServices;
+using Microsoft.EntityFrameworkCore;
 using Patinhas.Backend.Domain.Entities;
 using Patinhas.Infrastructure.Context;
 
 namespace Patinhas.Infrastructure.Services;
 
-public class CombinationService() : ICombinationService
+public class CombinationService(PatinhasContext ctx) : ICombinationService
 {
-// Context ctx
-    public Task<int> CreateCombination(Combinacao combinacao)
+    public async Task<int> CreateCombination(Combinacao combinacao)
     {
-        
-        throw new NotImplementedException();
+        ctx.Combinacoes.Add(combinacao);
+
+        await ctx.SaveChangesAsync();
+
+        return combinacao.Id;
     }
 
-    public Task<bool> DeleteCombination(Combinacao combinacao)
+    public async Task<bool> DeleteCombination(Combinacao combinacao)
     {
-        throw new NotImplementedException();
+        ctx.Combinacoes.Remove(combinacao);
+
+        return await ctx.SaveChangesAsync() > 0;
     }
 
-    public Task<Combinacao> FindById(int id)
+    public async Task<Combinacao> FindById(int id)
     {
-        throw new NotImplementedException();
+        return await ctx.Combinacoes
+            .FirstOrDefaultAsync(c => c.Id == id);
     }
 }

@@ -61,8 +61,8 @@ public class SeedService
 
 
     private readonly HttpClient httpClient;
-    private readonly Context ctx;
-    public SeedService(HttpClient httpClient, Context ctx)
+    private readonly PatinhasContext ctx;
+    public SeedService(HttpClient httpClient, PatinhasContext ctx)
     {
         this.httpClient = httpClient;
         this.ctx = ctx;

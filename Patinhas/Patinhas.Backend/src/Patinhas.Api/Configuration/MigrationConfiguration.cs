@@ -7,7 +7,7 @@ public static class MigrationConfiguration
     {
         using (var scope = app.Services.CreateScope())
         {
-            var db = scope.ServiceProvider.GetRequiredService<Context>();
+            var db = scope.ServiceProvider.GetRequiredService<PatinhasContext>();
             db.Database.Migrate();
 
             var seeder = scope.ServiceProvider

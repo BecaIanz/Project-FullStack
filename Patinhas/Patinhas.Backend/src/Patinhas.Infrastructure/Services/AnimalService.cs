@@ -3,7 +3,7 @@ using Patinhas.Application.IServices;
 using Patinhas.Backend.Domain.Entities;
 using Patinhas.Infrastructure.Context;
 
-public class AnimalService(Context ctx) : IAnimalService
+public class AnimalService(PatinhasContext ctx) : IAnimalService
 {
 
     public async Task<List<Animal>> GetAll()
@@ -46,8 +46,8 @@ public class AnimalService(Context ctx) : IAnimalService
         var animalExists = await ctx.Animais
             .AnyAsync(a => a.Id == animalId);
 
-        if (!animalExists)
-            return false;
+        // if (!animalExists)
+        //     return false;
 
         var foto = new AnimalFoto
         {
@@ -74,11 +74,17 @@ public class AnimalService(Context ctx) : IAnimalService
 
         return await ctx.SaveChangesAsync() > 0;
     }
-
-    public async Task<Animal> FindById(int id)
+    public async Task<Animal?> FindById(int id)
     {
         return await ctx.Animais
             .Include(a => a.Fotos)
             .FirstOrDefaultAsync(a => a.Id == id);
+    }
+
+    public async Task<List<AnimalFoto>> GetPhotos(int animalId)
+    {
+        return await ctx.AnimalFotos
+            .Where(f => f.AnimalId == animalId)
+            .ToListAsync();
     }
 }

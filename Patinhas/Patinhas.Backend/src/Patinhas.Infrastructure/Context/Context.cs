@@ -3,7 +3,7 @@ namespace Patinhas.Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
 using Patinhas.Backend.Domain.Entities;
 
-public class Context(DbContextOptions<Context> ctx) : DbContext(ctx)
+public class PatinhasContext(DbContextOptions<PatinhasContext> ctx) : DbContext(ctx)
 {
     public DbSet<Animal> Animais {get;set;}
     public DbSet<AnimalFoto> AnimalFotos {get;set;}

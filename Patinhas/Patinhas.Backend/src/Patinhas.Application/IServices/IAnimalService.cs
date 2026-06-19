@@ -3,7 +3,7 @@ using Patinhas.Backend.Domain.Entities;
 
 public interface IAnimalService
 {
-    Task<Animal> FindById(int id);
+    Task<Animal?> FindById(int id);
     Task<List<Animal>> GetAll();
     Task<List<AnimalFoto>> GetPhotos(int animalId);
 

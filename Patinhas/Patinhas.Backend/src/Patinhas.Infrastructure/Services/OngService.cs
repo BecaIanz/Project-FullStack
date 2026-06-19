@@ -3,7 +3,7 @@ using Patinhas.Application.IServices;
 using Patinhas.Backend.Domain.Entities;
 using Patinhas.Infrastructure.Context;
 
-public class OngService(Context ctx) : IOngService
+public class OngService(PatinhasContext ctx) : IOngService
 {
     public async Task<int> CreateOngAsync(Ong ong)
     {
