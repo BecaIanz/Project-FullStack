@@ -6,3 +6,4 @@ public record UpdateAnimalDTO
     public string  Raca { get; set; }
     
 }
+
