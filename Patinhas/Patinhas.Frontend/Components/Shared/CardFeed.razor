@@ -1,0 +1,58 @@
+@using Frontend.Models
+@rendermode InteractiveServer
+
+<div class="container-card">
+    <img  src="@Animal.Images[index]" alt="imagem de animal"/>
+    <p style="position: absolute; top: 40%; left:90%; font-size:40px; z-index:11; cursor: pointer;"  @onclick="() => changeSetaRight()">></p>
+    <p style="position: absolute; top: 40%; left:3%; font-size:40px; z-index:11; cursor: pointer;"  @onclick="() => changeSetaLeft()">@flecha</p>
+    <div class="gradient">
+        <p>@Animal.Name, @Animal.Age, @Animal.Breed</p>
+        <p>@Animal.Description</p>
+        <div class="container-ball">
+            @for(int i = 0; i < Animal.Images.Count(); i++){
+                if(i == index){
+                    <div class="ball" style="background-color: white;"></div>
+                }
+                else{
+                    <div class="ball"></div>
+                }
+            }
+        </div>
+    </div>
+</div>
+
+@code{
+    [Parameter]
+    public Animal Animal { get; set; } 
+
+    public int index = 0;
+    
+    public string flecha = "<";
+    public int _index = 0;
+    private double startX;
+    private int animalAtual = 0;
+    protected override void OnParametersSet()
+    {
+        index = 0;
+    }
+    void changeSetaRight(){
+        if(index == Animal.Images.Count() -1 ){
+            index = 0;
+        }
+        else{
+            index++;
+        }
+        Console.WriteLine("index: ", index);
+    }
+
+    void changeSetaLeft(){
+        if(index == 0 ){
+            index = Animal.Images.Count -1;
+        }
+        else{
+            index--;
+        }
+    }
+
+
+}

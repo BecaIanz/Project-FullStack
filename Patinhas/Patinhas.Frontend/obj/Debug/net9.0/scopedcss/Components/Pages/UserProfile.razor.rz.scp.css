@@ -1,0 +1,71 @@
+.container-user[b-f8a01rrt3f]{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b19579;
+    position: relative;
+}
+.user-photo[b-f8a01rrt3f]{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 200px;
+    background-color: #00000000;
+    border: solid 4px rgb(90, 47, 21);
+}
+
+.header[b-f8a01rrt3f]{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.name[b-f8a01rrt3f]{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #36210b;
+    font-size: 40px;
+}
+
+.age[b-f8a01rrt3f]{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #36210b;
+    font-size: 20px;
+}
+
+.container-image-feed[b-f8a01rrt3f]{
+    width: 100%; 
+    height: 23rem; 
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.container-image[b-f8a01rrt3f]{
+    gap: 2rem;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 10rem;
+}
+.edit-photo[b-f8a01rrt3f]{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 0;
+    right: 3rem;
+}

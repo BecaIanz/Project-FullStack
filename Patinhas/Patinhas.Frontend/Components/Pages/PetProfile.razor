@@ -1,0 +1,56 @@
+@page "/petProfile"
+@using Frontend.Components.Shared
+@using Frontend.Models
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+@inject Frontend.Services.AppState AppState
+
+<div class="container-user">
+    @if (pet != null)
+    {
+        <div class="header">
+            <img @onclick="() => goToHome()" style="height: 4rem; width: 4rem; border-radius: 10px;" src="/Images/pata_logo.avif" alt="">
+            <div style="width: 5rem; height: 5rem;" @onclick="() => goToPetsCurtidos()">
+                <svg @onclick="() => goToPetsCurtidos()" xmlns="http://www.w3.org/2000/svg" id="mdil-arrow-left" viewBox="0 0 24 24" fill="#5a2f15"><path d="M19,13H6.75L12,18.25L11.34,19L4.84,12.5L11.34,6L12,6.75L6.75,12H19V13Z" fill="#5a2f15"/></svg>
+            </div>
+        </div>
+        <div class="container-image">
+            <svg @onclick="changePhoto" class="edit-photo" ...></svg>
+            <img class="user-photo" src="@pet.Images[0]" alt="user">
+            <div style="display: flex; justify-content: center; align-items: center; flex-direction: column">
+                <div class="name">@pet.Name</div>
+                <div class="age">@pet.OngName</div>
+                <div class="age">@pet.Age</div>
+            </div>
+        </div>
+        <div class="container-image-feed">
+            @foreach(var ima in pet.Images){
+                <CardPerfil Image="@ima"></CardPerfil>
+            }
+        </div>
+    }
+    else
+    {
+        <p>Nenhum pet selecionado.</p>
+    }
+</div>
+
+@code{
+    public Animal pet { get; set; }
+
+    protected override void OnInitialized()
+    {
+        if (AppState.SelectedPet != null)
+        {
+            pet = AppState.SelectedPet;
+        }
+        else
+        {
+            pet = new Animal("Mia", ["..."], "Gata super agradavel", "Gato", "3 meses", "Feminino", "ONG do bem");
+        }
+    }
+
+    void changePhoto() { }
+    private void goToHome() => NavigationManager.NavigateTo("/home");
+    private void goToPetsCurtidos() => NavigationManager.NavigateTo("/petCurtido");
+}

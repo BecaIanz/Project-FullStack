@@ -1,0 +1,25 @@
+@using Frontend.Models
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+@inject Frontend.Services.AppState AppState
+
+
+<div @onclick="() => goToPetPage()" class="container-card" style="width: @Width; height: @Height">
+    <h2>@Animal.Name</h2>
+    <h3>@Animal.OngName</h3>
+</div>
+
+@code{
+    [Parameter]
+    public Animal Animal { get; set; } 
+    [Parameter]
+    public string Width { get; set; } = "100%";
+    [Parameter]
+    public string Height { get; set; } = "10rem";
+    private void goToPetPage()
+    {
+        AppState.SelectedPet = Animal;
+        
+        NavigationManager.NavigateTo("/petProfile");
+    }
+}

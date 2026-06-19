@@ -1,0 +1,72 @@
+﻿@page "/home"
+@using Frontend.Components.Shared
+@using Frontend.Models
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
+<div class="container-home">
+    <div class="container-header">
+        <img class="logo" src="/Images/user2.png" alt="User" @onclick="() => goToUserPage()"/>
+        <img class="logo" src="/Images/pata_logo.avif" alt="Logo"/>
+        <img class="logo" src="/Images/message.png" alt="message" @onclick="() => goToMessagePage()" />
+
+    </div>
+    @if(animalAtual <= animais.Count() - 1){
+        <div style="display: flex; position: absolute; top: 200px; ">
+            <CardFeed Animal="@animais[animalAtual]"></CardFeed>
+        </div>
+        <div class="buttons">
+            <ButtonDisLike OnClick="DisLikeAnimal"></ButtonDisLike>
+            <ButtonLike OnClick="LikeAnimal"></ButtonLike>
+        </div>
+    }
+    else{
+        <h1>Sem animais no momento</h1>
+    }
+</div>
+
+@code{
+    public List<Animal> animais = [ 
+        new Animal(
+            "Mia",
+            ["https://rockbicho.org/wp-content/uploads/jet-form-builder/bd6d2772a6e2204e95dcb87aa35709ef/2026/01/11964411-f844-47b9-b1ee-84d12c4a5560.jpeg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6vesFe1XVDZunyK0bYEaM2LEtZCqCxA7tfQ&s", "data:image/jpeg;base64,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", "https://www.specialdog.com.br/assets/uploads/images/gateirosdeprimeiraviagem.png"],
+            "Gata muito amavel e extremamente carinhosa",
+            "Gato",
+            "2 meses",
+            "Feminino",
+            "ONG do bem"),
+        new Animal(
+            "Bolinha",
+            ["https://upload.wikimedia.org/wikipedia/commons/8/80/Bento%2C_o_poodle_toy.png"],
+            "Cachorrinha muito Alegre gosta de carinho e de brincar",
+            "Cachorro",
+            "2 meses", 
+            "Feminino",
+            "ONG gente boa"),
+        new Animal(
+            "Nana",
+            ["https://media.jcorreiodopovo.com.br/2023/01/55171f2b-4_nota-e1674326990104.jpg"],
+            "Gata Carinhosa e dorminhoca",
+            "Gata",
+            "2 Anos", 
+            "Feminino",
+            "ONG do povo legal")];
+
+    private int animalAtual = 0;
+    private void goToUserPage()
+    {NavigationManager.NavigateTo("/user");}
+    private void goToMessagePage()
+    {NavigationManager.NavigateTo("/petCurtido");}
+
+    private void LikeAnimal(){
+        animalAtual++;
+        Console.WriteLine("Curtiu");
+        StateHasChanged();
+    }
+
+    private void DisLikeAnimal(){
+        animalAtual++;
+        Console.WriteLine("DesCurtiu");
+        StateHasChanged();
+    }
+}
