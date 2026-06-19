@@ -21,7 +21,7 @@ public class UpdateOngUseCase(IOngService IOngService)
                 Nome=nome
             };
 
-            await IOngService.UpdateOngAsync(payload.Id,ong);
+            await IOngService.UpdateOngAsync(ong);
 
             return Result<UpdateOngResponse>.Success(new UpdateOngResponse());
         }
