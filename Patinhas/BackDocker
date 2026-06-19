@@ -5,3 +5,17 @@ WORKDIR /patinhas
 ENV HTTP_PROXY="host.docker.internal:3128"
 ENV HTTPS_PROXY="host.docker.internal:3128"
 
+
+COPY ./Patinhas.Backend/*.sln ./
+COPY ./Patinhas.Backend/src/Patinhas.Api/*.csproj ./Patinhas.Api/
+COPY ./Patinhas.Backend/src/Patinhas.Application/*.csproj ./Patinhas.Application/
+COPY ./Patinhas.Backend/src/Patinhas.Domain/*.csproj ./Patinhas.Domain/
+
+
+COPY ./Patinhas.Backend/src/ ./
+
+
+ENTRYPOINT [ "dotnet" ]
+CMD ["dotnet", "run", "--urls=http://0.0.0.0:5284", "--project", "./Patinhas.Api"]
+
+EXPOSE 5284
