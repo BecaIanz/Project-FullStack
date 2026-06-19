@@ -3,6 +3,7 @@ using Patinhas.Backend.Application.UseCases.GetFeed;
 namespace Patinhas.Backend.Api.Endpoint;
 
 using Patinhas.Application.IServices;
+using Patinhas.Backend.Application.UseCases.Animals.AddPhoto;
 using Patinhas.Backend.Application.UseCases.Animals.CreateAnimal;
 using Patinhas.Backend.Application.UseCases.Animals.DeleteAnimal;
 using Patinhas.Backend.Application.UseCases.Animals.UpdateAnimal;
@@ -12,10 +13,9 @@ public static class AnimalEndpoint
 {
     public static void ConfigureAnimalEndipoints(this WebApplication app)
     {
-    app.MapGet("Animal/{id}", ( 
-     )=>
+    app.MapGet("Animal/{Id}", (int id)=>
     {
-        return Results.Ok($"Animal {a.FindById}");
+        return Results.Ok($"Animal {id}");
     }
     );
     app.MapGet("Animais",(GetFeedPayload payload)=>{
@@ -29,8 +29,9 @@ public static class AnimalEndpoint
     });
     app.MapDelete("Delete/{id}",(DeleteAnimalPayload payload)=>{
         return Results.Ok<DeleteAnimalResponse>;
-    });app.MapDelete("Delete/{id}",(DeleteAnimalPayload payload)=>{
-        return Results.Ok<DeleteAnimalResponse>;
+    });
+    app.MapPut("UpdatePhoto/{id}",(AddPhotoPayload payload)=>{
+        return Results.Ok<AddPhotoResponse>;
     });
 
 
