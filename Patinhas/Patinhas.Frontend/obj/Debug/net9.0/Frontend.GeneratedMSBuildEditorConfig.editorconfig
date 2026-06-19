@@ -40,10 +40,6 @@ build_metadata.AdditionalFiles.CssScope = b-cj3fj28uav
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ftcrkoicqg
 
-[C:/Users/Iar1ct/Desktop/Patinhas/Project-FullStack/Patinhas/Patinhas.Frontend/Components/Pages/Contacts.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb250YWN0cy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-2cmq9nv29j
-
 [C:/Users/Iar1ct/Desktop/Patinhas/Project-FullStack/Patinhas/Patinhas.Frontend/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-ki5ckatzno
@@ -55,6 +51,10 @@ build_metadata.AdditionalFiles.CssScope = b-1j1h6k9ujg
 [C:/Users/Iar1ct/Desktop/Patinhas/Project-FullStack/Patinhas/Patinhas.Frontend/Components/Pages/PetProfile.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQZXRQcm9maWxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-s7garhzx0g
+
+[C:/Users/Iar1ct/Desktop/Patinhas/Project-FullStack/Patinhas/Patinhas.Frontend/Components/Pages/PetsCurtidos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQZXRzQ3VydGlkb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-67wlq62fl5
 
 [C:/Users/Iar1ct/Desktop/Patinhas/Project-FullStack/Patinhas/Patinhas.Frontend/Components/Pages/UserProfile.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVc2VyUHJvZmlsZS5yYXpvcg==

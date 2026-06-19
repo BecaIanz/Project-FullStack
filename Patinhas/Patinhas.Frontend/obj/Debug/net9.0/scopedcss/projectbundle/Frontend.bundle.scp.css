@@ -6,27 +6,6 @@
     flex-direction: row;
 }
 /* _content/Frontend/Components/Layout/NavMenu.razor.rz.scp.css */
-/* _content/Frontend/Components/Pages/Contacts.razor.rz.scp.css */
-.container-message[b-2cmq9nv29j]{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #b19579;
-    position: relative;
-}
-.container-card[b-2cmq9nv29j]{
-    width: 80%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-
-}
 /* _content/Frontend/Components/Pages/Home.razor.rz.scp.css */
 .container-home[b-ki5ckatzno]{
     width: 100vw;
@@ -50,15 +29,14 @@
 
 .container-header[b-ki5ckatzno]{
     width: 100%;
-    height: 15%;
+    height: 7rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 9999;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
 }
 
 .buttons[b-ki5ckatzno]{
@@ -200,6 +178,46 @@ button[b-1j1h6k9ujg]{
     position: absolute;
     top: 0;
     right: 3rem;
+}
+/* _content/Frontend/Components/Pages/PetsCurtidos.razor.rz.scp.css */
+.container-message[b-67wlq62fl5]{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b19579;
+    position: relative;
+}
+.container-card[b-67wlq62fl5]{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.header[b-67wlq62fl5]{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+
+h1[b-67wlq62fl5]{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #36210b;
+    font-size: 50px;
 }
 /* _content/Frontend/Components/Pages/UserProfile.razor.rz.scp.css */
 .container-user[b-f8a01rrt3f]{

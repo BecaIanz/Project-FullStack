@@ -1,4 +1,4 @@
-.container-home{
+.container-message[b-67wlq62fl5]{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -8,17 +8,18 @@
     background-color: #b19579;
     position: relative;
 }
+.container-card[b-67wlq62fl5]{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 
-.logo{
-    width: 4rem; 
-    height: 4rem; 
-    border-radius:10px;
-    /* position: absolute;
-    top: 2rem;
-    right: 2rem; */
 }
 
-.container-header{
+.header[b-67wlq62fl5]{
     width: 100%;
     height: 7rem;
     display: flex;
@@ -30,13 +31,9 @@
     padding: 2rem;
 }
 
-.buttons{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
-    position: absolute;
-    bottom: 10px;
+
+h1[b-67wlq62fl5]{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #36210b;
+    font-size: 50px;
 }

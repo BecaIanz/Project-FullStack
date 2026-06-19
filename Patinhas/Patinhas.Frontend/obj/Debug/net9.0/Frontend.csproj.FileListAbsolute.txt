@@ -238,7 +238,6 @@ C:\Users\disrct\Desktop\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\n
 C:\Users\disrct\Desktop\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\ref\Frontend.dll
 C:\Users\disrct\Desktop\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\wkaqiq4loj-3tww5ljav5.gz
 C:\Users\disrct\Desktop\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\xfnzok5kqy-3tww5ljav5.gz
-C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\scopedcss\Components\Pages\Contacts.razor.rz.scp.css
 C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\scopedcss\Components\Shared\CardContacts.razor.rz.scp.css
 C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\lj6qvupq73-4cxwixnbt7.gz
 C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\in9gcgwmg3-21s5onqkzi.gz
@@ -252,5 +251,6 @@ C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\ob
 C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\scopedcss\Components\Shared\CardPerfil.razor.rz.scp.css
 C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\scopedcss\Components\Pages\PetProfile.razor.rz.scp.css
 C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\scopedcss\Components\Pages\UserProfile.razor.rz.scp.css
-C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\wkaqiq4loj-wv4qanbvj5.gz
-C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\xfnzok5kqy-wv4qanbvj5.gz
+C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\scopedcss\Components\Pages\PetsCurtidos.razor.rz.scp.css
+C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\wkaqiq4loj-5d7byfon91.gz
+C:\Users\Iar1ct\Desktop\Patinhas\Project-FullStack\Patinhas\Patinhas.Frontend\obj\Debug\net9.0\compressed\xfnzok5kqy-5d7byfon91.gz
