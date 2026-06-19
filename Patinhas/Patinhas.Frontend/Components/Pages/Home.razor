@@ -1,4 +1,4 @@
-﻿@page "/"
+﻿@page "/home"
 @using Frontend.Components.Shared
 @using Frontend.Models
 @inject NavigationManager NavigationManager
@@ -11,7 +11,13 @@
         <img class="logo" src="/Images/message.png" alt="message" @onclick="() => goToMessagePage()" />
 
     </div>
-    <CardFeed Animais="@animais"></CardFeed>
+    <div style="display: flex; position: absolute; top: 200px; ">
+        <CardFeed Animal="@animais[animalAtual]"></CardFeed>
+    </div>
+    <div class="buttons">
+        <ButtonDisLike OnClick="DisLikeAnimal"></ButtonDisLike>
+        <ButtonLike OnClick="LikeAnimal"></ButtonLike>
+    </div>
 </div>
 
 @code{
@@ -29,9 +35,30 @@
             "Cachorrinha muito Alegre gosta de carinho e de brincar",
             "Cachorro",
             "2 meses", 
+            "Feminino"),
+        new Animal(
+            "Nana",
+            ["https://media.jcorreiodopovo.com.br/2023/01/55171f2b-4_nota-e1674326990104.jpg"],
+            "Gata Carinhosa e dorminhoca",
+            "Gata",
+            "2 Anos", 
             "Feminino")];
+
+    private int animalAtual = 0;
     private void goToUserPage()
     {NavigationManager.NavigateTo("/user");}
     private void goToMessagePage()
     {NavigationManager.NavigateTo("/contacts");}
+
+    private void LikeAnimal(){
+        animalAtual++;
+        Console.WriteLine("Curtiu");
+        StateHasChanged();
+    }
+
+    private void DisLikeAnimal(){
+        animalAtual++;
+        Console.WriteLine("DesCurtiu");
+        StateHasChanged();
+    }
 }

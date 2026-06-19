@@ -1,17 +1,15 @@
 @using Frontend.Models
 @rendermode InteractiveServer
 
-<div class="container-card"
-    @onpointerleft="PointerDown"
-    @onpointerup="PointerUp">
-    <img  src="@Animais[animalAtual].Images[index]" alt="imagem de animal"/>
+<div class="container-card">
+    <img  src="@Animal.Images[index]" alt="imagem de animal"/>
     <p style="position: absolute; top: 40%; left:90%; font-size:40px; z-index:11; cursor: pointer;"  @onclick="() => changeSetaRight()">></p>
     <p style="position: absolute; top: 40%; left:3%; font-size:40px; z-index:11; cursor: pointer;"  @onclick="() => changeSetaLeft()">@flecha</p>
     <div class="gradient">
-        <p>@Animais[animalAtual].Name, @Animais[animalAtual].Age, @Animais[animalAtual].Breed</p>
-        <p>@Animais[animalAtual].Description</p>
+        <p>@Animal.Name, @Animal.Age, @Animal.Breed</p>
+        <p>@Animal.Description</p>
         <div class="container-ball">
-            @for(int i = 0; i < Animais[animalAtual].Images.Count(); i++){
+            @for(int i = 0; i < Animal.Images.Count(); i++){
                 if(i == index){
                     <div class="ball" style="background-color: white;"></div>
                 }
@@ -25,7 +23,7 @@
 
 @code{
     [Parameter]
-    public List<Animal> Animais { get; set; } 
+    public Animal Animal { get; set; } 
 
     public int index = 0;
     
@@ -33,41 +31,12 @@
     public int _index = 0;
     private double startX;
     private int animalAtual = 0;
-
-    private void PointerDown(PointerEventArgs e)
+    protected override void OnParametersSet()
     {
-        startX = e.ClientX;
+        index = 0;
     }
-
-    private void PointerUp(PointerEventArgs e)
-    {
-        var distancia = e.ClientX - startX;
-
-        if (distancia > 100)
-        {
-            ProximoAnimal();
-        }
-        else if (distancia < -100)
-        {
-            AnimalAnterior();
-        }
-    }
-
-    private void ProximoAnimal()
-    {
-        animalAtual++;
-
-        StateHasChanged();
-    }
-    private void AnimalAnterior()
-    {
-        animalAtual--;
-
-        StateHasChanged();
-    }
-
     void changeSetaRight(){
-        if(index == Animais[animalAtual].Images.Count() -1 ){
+        if(index == Animal.Images.Count() -1 ){
             index = 0;
         }
         else{
@@ -78,7 +47,7 @@
 
     void changeSetaLeft(){
         if(index == 0 ){
-            index = Animais[animalAtual].Images.Count -1;
+            index = Animal.Images.Count -1;
         }
         else{
             index--;

@@ -1,0 +1,29 @@
+@page "/"
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+<div class="container-login">
+    <div class="card-login">
+        <h1>Login</h1>
+        <div style="height: fit-content; width: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <div class="all-inputs">
+                
+                <div class="container-input">
+                    <p>UserName:</p>
+                    <input type="text">
+                </div>
+
+                <div class="container-input">
+                    <p>PassWord:</p>
+                    <input type="text">
+                </div>
+            </div>
+            <button @onclick="() => goToHome()" >Entrar</button>
+        </div>
+    </div>
+
+</div>
+
+@code{
+    void goToHome()
+    {NavigationManager.NavigateTo("/home");}
+}

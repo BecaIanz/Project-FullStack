@@ -48,9 +48,21 @@ build_metadata.AdditionalFiles.CssScope = b-2cmq9nv29j
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-ki5ckatzno
 
+[C:/Users/Iar1ct/Desktop/Patinhas/Project-FullStack/Patinhas/Patinhas.Frontend/Components/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-1j1h6k9ujg
+
 [C:/Users/Iar1ct/Desktop/Patinhas/Project-FullStack/Patinhas/Patinhas.Frontend/Components/Pages/User.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVc2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-ydjnqnqrje
+
+[C:/Users/Iar1ct/Desktop/Patinhas/Project-FullStack/Patinhas/Patinhas.Frontend/Components/Shared/ButtonDisLike.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcQnV0dG9uRGlzTGlrZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-yuhy2vr4pm
+
+[C:/Users/Iar1ct/Desktop/Patinhas/Project-FullStack/Patinhas/Patinhas.Frontend/Components/Shared/ButtonLike.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcQnV0dG9uTGlrZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-kji4dsrvyi
 
 [C:/Users/Iar1ct/Desktop/Patinhas/Project-FullStack/Patinhas/Patinhas.Frontend/Components/Shared/CardContacts.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcQ2FyZENvbnRhY3RzLnJhem9y

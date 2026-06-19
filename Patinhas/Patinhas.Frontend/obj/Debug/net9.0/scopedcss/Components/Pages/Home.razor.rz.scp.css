@@ -30,3 +30,14 @@
     left: 0;
     z-index: 9999;
 }
+
+.buttons[b-ki5ckatzno]{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    position: absolute;
+    bottom: 10px;
+}

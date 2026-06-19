@@ -8,14 +8,12 @@
     background-color: #b19579;
     position: relative;
 }
-.logo{
+.user-photo{
     width: 13rem;
     height: 13rem;
     border-radius: 200px;
     background-color: #00000000;
     border: solid 4px rgb(90, 47, 21);
-    position: absolute;
-    top: 150px;
 }
 
 .header{
@@ -28,4 +26,28 @@
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
+}
+.name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #36210b;
+    font-size: 40px;
+}
+
+.container-image{
+    gap: 2rem;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 10rem;
+}
+.edit-photo{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
 }

@@ -1,0 +1,57 @@
+.container-login[b-1j1h6k9ujg]{
+    width: 100vw;
+    height: 100vh;
+    background-color: #b19579;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-login[b-1j1h6k9ujg]{
+    width: 90%;
+    height: 60%;
+    background-color: rgb(224, 209, 189);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-direction: column;
+
+}
+h1[b-1j1h6k9ujg]{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #36210b;
+    font-size: 50px;
+}
+input[b-1j1h6k9ujg]{
+    width: 100%;
+    height: 3rem;
+    background-color: #b19579;
+    border-radius: 10px;
+}
+button[b-1j1h6k9ujg]{
+    width: 30%;
+    height: 3rem;
+    background-color: #b19579;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+.container-input[b-1j1h6k9ujg]{
+    width: 100%; 
+    display: flex; 
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0 10% 0 10%;
+}
+.all-inputs[b-1j1h6k9ujg]{
+    width: 100%;
+    height: fit-content;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
