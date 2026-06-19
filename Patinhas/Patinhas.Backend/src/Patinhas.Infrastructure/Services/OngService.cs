@@ -24,7 +24,6 @@ public class OngService(PatinhasContext ctx) : IOngService
     public async Task<bool> UpdateOngAsync(Ong ong)
     {
         ctx.Ongs.Update(ong);
-
         return await ctx.SaveChangesAsync() > 0;
     }
 
@@ -35,6 +34,11 @@ public class OngService(PatinhasContext ctx) : IOngService
             .FirstOrDefaultAsync(o => o.Nome == name);
     }
 
+    public async Task<Ong> FindById(int id)
+    {
+        return await ctx.Ongs.FirstOrDefaultAsync(o => o.Id == id);
+    }
+
     public async Task<List<Ong>> GetOngsAsync()
     {
         return await ctx.Ongs
@@ -42,18 +46,9 @@ public class OngService(PatinhasContext ctx) : IOngService
             .ToListAsync();
     }
 
-    public Task<Ong> FindById(int id)
+    public async Task<bool> Approve(Combinacao combination)
     {
-        throw new NotImplementedException();
-    }
-
-    public Task<bool> Aprove()
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task UpdateOngAsync(int id, Ong ong)
-    {
-        throw new NotImplementedException();
+        combination.Aceito = true;
+        return await ctx.SaveChangesAsync() > 0;
     }
 }

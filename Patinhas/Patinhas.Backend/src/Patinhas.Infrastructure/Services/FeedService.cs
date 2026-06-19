@@ -18,7 +18,7 @@ public class FeedService(PatinhasContext ctx) : IFeedService
             .ToListAsync();
     }
 
-    public async Task<Animal?> GetNextAnimal(int usuarioId)
+     public async Task<Animal?> GetNextAnimal(int usuarioId)
     {
         var animalIdsJaVistos = await ctx.Combinacoes
             .Where(c => c.UsuarioId == usuarioId)
