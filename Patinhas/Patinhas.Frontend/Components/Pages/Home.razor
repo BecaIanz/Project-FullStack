@@ -11,13 +11,18 @@
         <img class="logo" src="/Images/message.png" alt="message" @onclick="() => goToMessagePage()" />
 
     </div>
-    <div style="display: flex; position: absolute; top: 200px; ">
-        <CardFeed Animal="@animais[animalAtual]"></CardFeed>
-    </div>
-    <div class="buttons">
-        <ButtonDisLike OnClick="DisLikeAnimal"></ButtonDisLike>
-        <ButtonLike OnClick="LikeAnimal"></ButtonLike>
-    </div>
+    @if(animalAtual <= animais.Count() - 1){
+        <div style="display: flex; position: absolute; top: 200px; ">
+            <CardFeed Animal="@animais[animalAtual]"></CardFeed>
+        </div>
+        <div class="buttons">
+            <ButtonDisLike OnClick="DisLikeAnimal"></ButtonDisLike>
+            <ButtonLike OnClick="LikeAnimal"></ButtonLike>
+        </div>
+    }
+    else{
+        <h1>Sem animais no momento</h1>
+    }
 </div>
 
 @code{
