@@ -18,7 +18,7 @@ public class FeedService(PatinhasContext ctx) : IFeedService
             .ToListAsync();
     }
 
-     public async Task<Animal?> GetNextAnimal(int usuarioId)
+    public async Task<Animal?> GetNextAnimal(int usuarioId)
     {
         var animalIdsJaVistos = await ctx.Combinacoes
             .Where(c => c.UsuarioId == usuarioId)
@@ -26,8 +26,10 @@ public class FeedService(PatinhasContext ctx) : IFeedService
             .ToListAsync();
 
         return await ctx.Animais
+            .AsNoTracking()
             .Include(a => a.Fotos)
             .Where(a => !animalIdsJaVistos.Contains(a.Id))
+            .OrderBy(a => a.Id)
             .FirstOrDefaultAsync();
     }
 }

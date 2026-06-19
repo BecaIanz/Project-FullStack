@@ -34,7 +34,7 @@ public class OngService(PatinhasContext ctx) : IOngService
             .FirstOrDefaultAsync(o => o.Nome == name);
     }
 
-    public async Task<Ong> FindById(int id)
+    public async Task<Ong?> FindById(int id)
     {
         var ong = await ctx.Ongs.FirstOrDefaultAsync(o => o.Id == id);
         return ong;
@@ -45,7 +45,5 @@ public class OngService(PatinhasContext ctx) : IOngService
         return await ctx.Ongs
             .AsNoTracking()
             .ToListAsync();
-    }
-
-   
+    }   
 }

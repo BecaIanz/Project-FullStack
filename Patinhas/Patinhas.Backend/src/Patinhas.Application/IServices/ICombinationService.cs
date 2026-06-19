@@ -4,9 +4,13 @@ public interface ICombinationService
 {
     Task<Combinacao?> FindById(int id);
 
-    Task<int> CreateCombination(Combinacao combinacao);
+    Task<Combinacao?> FindByUserAndAnimal(
+        int usuarioId,
+        int animalId);
 
-    Task<bool> DeleteCombination(Combinacao combinacao);
-    Task<bool> ConfirmationCombinacao(Combinacao combinacao);
-    
+    Task<int> CreateCombination(Combinacao combination);
+
+    Task<bool> UpdateCombination(Combinacao combination);
+
+    Task<bool> DeleteCombination(Combinacao combination);
 }

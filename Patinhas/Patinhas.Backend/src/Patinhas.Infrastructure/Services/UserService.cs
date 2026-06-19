@@ -34,20 +34,6 @@ public class UserService(PatinhasContext ctx) : IUserService
         return await ctx.Usuarios.AsNoTracking().ToListAsync();
     }
 
-    // public async Task<bool> LikeAnimal(int animalId)
-    // {
-    //     var animal = await ctx.Animais.FirstOrDefaultAsync(a => a.Id == animalId);
-    //     var likeanimal = LikeAnimal
-    //     {
-            
-    //     }
-    // }
-
-    // public Task<bool> DislikeAnimal(int animalId)
-    // {
-    //     throw new NotImplementedException();
-    // }
-
     public async Task<Usuario> FindById(int id)
     {
         var user = await ctx.Usuarios.FirstOrDefaultAsync(u => u.Id == id);
