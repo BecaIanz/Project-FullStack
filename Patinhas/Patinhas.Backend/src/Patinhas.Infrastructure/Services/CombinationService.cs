@@ -27,4 +27,9 @@ public class CombinationService(PatinhasContext ctx) : ICombinationService
         return await ctx.Combinacoes
             .FirstOrDefaultAsync(c => c.Id == id);
     }
+     public async Task<bool> ConfirmationCombinacao(Combinacao combination)
+    {
+        combination.Aceito = true;
+        return await ctx.SaveChangesAsync() > 0;
+    }
 }

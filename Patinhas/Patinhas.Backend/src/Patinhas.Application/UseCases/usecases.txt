@@ -7,7 +7,7 @@ addUserPhoto
 removeUsePhoto
 
 authUser
-likeAnimal
+likeAnimal X
 
 Animal
 

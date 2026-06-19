@@ -7,4 +7,6 @@ public interface ICombinationService
     Task<int> CreateCombination(Combinacao combinacao);
 
     Task<bool> DeleteCombination(Combinacao combinacao);
+    Task<bool> ConfirmationCombinacao(Combinacao combinacao);
+    
 }

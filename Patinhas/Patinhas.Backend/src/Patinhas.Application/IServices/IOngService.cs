@@ -8,7 +8,7 @@ public interface IOngService
     Task<int> CreateOngAsync(Ong ong);
     Task<bool> DeleteOngAsync(Ong ong);
     Task<bool> UpdateOngAsync(Ong ong);
-    Task<bool> Approve(Combinacao combination);
+
     Task<Ong?> FindByNameAsync(string name);
     Task<List<Ong>> GetOngsAsync();
 }

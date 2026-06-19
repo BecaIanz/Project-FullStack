@@ -36,7 +36,8 @@ public class OngService(PatinhasContext ctx) : IOngService
 
     public async Task<Ong> FindById(int id)
     {
-        return await ctx.Ongs.FirstOrDefaultAsync(o => o.Id == id);
+        var ong = await ctx.Ongs.FirstOrDefaultAsync(o => o.Id == id);
+        return ong;
     }
 
     public async Task<List<Ong>> GetOngsAsync()
@@ -46,9 +47,5 @@ public class OngService(PatinhasContext ctx) : IOngService
             .ToListAsync();
     }
 
-    public async Task<bool> Approve(Combinacao combination)
-    {
-        combination.Aceito = true;
-        return await ctx.SaveChangesAsync() > 0;
-    }
+   
 }
