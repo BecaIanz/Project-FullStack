@@ -6,5 +6,6 @@ public record Animal(
     string Description,
     string Breed,
     string Age,
-    string Sex
+    string Sex,
+    string? OngName
 );
