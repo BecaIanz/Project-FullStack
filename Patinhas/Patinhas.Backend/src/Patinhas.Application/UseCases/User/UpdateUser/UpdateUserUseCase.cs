@@ -5,36 +5,38 @@ namespace Patinhas.Backend.Application.UseCases.User.UpdateUser;
 
 public class UpdateUserUseCase(IUserService IuserService)
 {
-    public async Task<Result<UpdateUserResponse>> Do(UpdateUserPayload payload)
+public async Task<Result<UpdateUserResponse>> Do(UpdateUserPayload payload)
+{
+    try
     {
-        
-        try
+        var oldUser = await IuserService.FindById(payload.Id);
+
+        if (oldUser == null)
+            return Result<UpdateUserResponse>.Fail("Usuário não encontrado");
+
+        string nome = oldUser.Nome;
+        string descricao = oldUser.Descricao;
+
+        if (payload.Nome != null)
+            nome = payload.Nome;
+
+        if (payload.Descricao != null)
+            descricao = payload.Descricao;
+
+        var newUser = new Usuario
         {
-            var oldUser = await IuserService.FindById(payload.Id);
+            Id = payload.Id,
+            Nome = nome,
+            Descricao = descricao
+        };
 
+        await IuserService.UpdateUser(newUser);
 
-            string nome = oldUser.Nome;
-            string descricao = payload.Descricao;
-
-            if (payload.Nome != null)
-                nome = payload.Nome;
-            if (payload.Descricao != null)
-                 nome = payload.Descricao;
-
-            var newUser = new Usuario
-            {
-                Nome=nome,
-                Descricao=descricao
-            };
-
-            await IuserService.UpdateUser(payload.Id, newUser);
-
-            return Result<UpdateUserResponse>.Success(new UpdateUserResponse());
-        }
-        catch (Exception ex){
-
-            return Result<UpdateUserResponse>.Fail(ex.Message);
-            
-        }
+        return Result<UpdateUserResponse>.Success(new UpdateUserResponse());
     }
+    catch (Exception ex)
+    {
+        return Result<UpdateUserResponse>.Fail(ex.Message);
+    }
+}
 }

@@ -34,24 +34,30 @@ public class UserService(PatinhasContext ctx) : IUserService
         return await ctx.Usuarios.AsNoTracking().ToListAsync();
     }
 
-    public Task<bool> LikeAnimal(int animalId)
+    // public async Task<bool> LikeAnimal(int animalId)
+    // {
+    //     var animal = await ctx.Animais.FirstOrDefaultAsync(a => a.Id == animalId);
+    //     var likeanimal = LikeAnimal
+    //     {
+            
+    //     }
+    // }
+
+    // public Task<bool> DislikeAnimal(int animalId)
+    // {
+    //     throw new NotImplementedException();
+    // }
+
+    public async Task<Usuario> FindById(int id)
     {
-        throw new NotImplementedException();
+        var user = await ctx.Usuarios.FirstOrDefaultAsync(u => u.Id == id);
+        return user;
     }
 
-    public Task<bool> DislikeAnimal(int animalId)
+    public async Task UpdateUser(Usuario usuario)
     {
-        throw new NotImplementedException();
-    }
-
-    public Task<Usuario> FindById(int id)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<bool> UpdateUser(int id, Usuario usuario)
-    {
-        throw new NotImplementedException();
+        ctx.Usuarios.Update(usuario);
+        await ctx.SaveChangesAsync();
     }
 
     public async Task<bool> AddUserPhoto(int id, string url)
@@ -72,4 +78,6 @@ public class UserService(PatinhasContext ctx) : IUserService
         await ctx.SaveChangesAsync();
         return true;
     }
+
 }
+

@@ -11,9 +11,9 @@ public interface IUserService
     Task<Boolean> AddUserPhoto (int id, string url);
     Task<Boolean> DeleteUser(Usuario usuario);
     Task<Usuario> FindByName(String name);
-    Task<Boolean> UpdateUser(int id,Usuario usuario);
+    Task UpdateUser(Usuario usuario);
 
     Task<List<Usuario>> GetUsers(); // Filters?
-    Task<Boolean> LikeAnimal(int animalId);
-    Task<Boolean> DislikeAnimal(int animalId);
+    // Task<Boolean> LikeAnimal(int animalId);
+    // Task<Boolean> DislikeAnimal(int animalId);
 }
