@@ -1,4 +1,4 @@
-namespace Patinhas.Backend.Domain.DTOs.AnimalDTOs;
+namespace Patinhas.Backend.Domain.DTOs;
 public record UpdateAnimalDTO
 {
     public string  Nome { get; set; }
